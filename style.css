@@ -16,28 +16,23 @@ body{
 }
 
 .intro{
-background: url("file:///C:/Users/rocco/OneDrive/Documents/GitHub/roccolee18.github.io/website-banner.jpg");
-height: 500px;
+background: url("website banner.png");
+background-size: 1520px 850px;
 text-align: center;
-background-size: cover;
+height: 850px;
 }
 
 .intro.container{
   position:relative;
 }
 
-.intro h1{
-  text-transform: uppercase;
-  font-size: 100px;
-  padding-top: 150px;
-  color: #00008D;
-  margin-bottom: 80px;
-  margin-top: 0px;
-}
-
 .intro p{
-  font-size: 25px;
-  font-weight:50px;
+  margin-top: 0px;
+  font-size: 80px;
+  font-weight: 70px;
+  padding-top: 610px;
+  padding-left: 100px;
+  color: #00000
 }
 
 h2{
