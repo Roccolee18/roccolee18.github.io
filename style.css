@@ -16,7 +16,7 @@ body{
 }
 
 .intro{
-background: url("website-banner.jpg");
+background-image: url("website-banner.jpg");
 height: 500px;
 text-align: center;
 background-size: cover;
