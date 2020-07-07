@@ -16,7 +16,7 @@ body{
 }
 
 .intro{
-background: url(https://www.siarza.com/wp-content/uploads/2017/12/webplunder-background-image-technology-online-website-solutions.jpg);
+background: url("website-banner.jpg");
 height: 500px;
 text-align: center;
 background-size: cover;
