@@ -1,0 +1,165 @@
+html, body{
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body{
+  font-family: 'Ubuntu', Arial;
+  font-weight: 100;
+  background-color: #E4E4E4;
+}
+
+.container{
+  margin:0 auto;
+  max-width: 1200px;
+  padding: 0 10px;
+}
+
+.intro{
+background: url(https://www.siarza.com/wp-content/uploads/2017/12/webplunder-background-image-technology-online-website-solutions.jpg);
+height: 500px;
+text-align: center;
+background-size: cover;
+}
+
+.intro.container{
+  position:relative;
+}
+
+.intro h1{
+  text-transform: uppercase;
+  font-size: 100px;
+  padding-top: 150px;
+  color: #00008D;
+  margin-bottom: 80px;
+  margin-top: 0px;
+}
+
+.intro p{
+  font-size: 25px;
+  font-weight:50px;
+}
+
+h2{
+  border-top: 1px solid #1E22FA;
+  border-bottom: 1px solid #1E22FA;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top:50px;
+  max-width: 1200px;
+
+}
+
+a{
+  text-transform: uppercase;
+}
+
+a:link{
+  color:white;
+}
+
+a:visited{
+  color:white;
+}
+
+a:hover{
+  color: white; 
+}
+
+.grid{
+  display: grid;
+  width: 1200px;
+  height: 500px;
+  grid-template-columns: 300px 300px 300px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  max-width: 1200px;
+  text-align:center;
+  grid-column-gap: 150px;
+}
+
+.box img{
+  height: 300px;
+  width: 300px;
+  display:inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.cont{
+  position:relative;
+}
+
+.cont:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.button{
+  display: inline-block;
+  background-color:#008CBA;
+  border:none;
+  color:#FFFFFF;
+  border-radius: 4px;
+  font-size: 28px;
+  color:white;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  margin-left:120px;
+  margin-right:100px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-bottom:100px;
+  margin-top:20px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
