@@ -17,9 +17,9 @@ body{
 
 .intro{
 background: url("website banner.png");
-background-size: 1600px 900px;
+background-size: 1600px 800px;
 text-align: center;
-height: 900px;
+height: 800px;
 }
 
 .intro.container{
