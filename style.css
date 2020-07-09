@@ -11,19 +11,50 @@ body{
 
 .container{
   margin:0 auto;
-  max-width: 1200px;
-  padding: 0 10px;
+  padding: 0 auto;
+}
+
+.about{
+  position:relative;
+  display:flex;
+  width: 100%;
+  margin: 0;
+}
+
+.about .content{
+  background-color: #090139;
+  width:50%;
+  color:white;
+  padding:20px;
+}
+
+.about .selfie{
+  width:50%;
+  background: url("selfie.jpg");
+  background-color: #55AD7A;
+  background-position: center;
+  background-size: cover;
 }
 
 .intro{
-background: url("website banner.png");
+background: url("website banner2.jpg");
 background-size: 1520px 850px;
 text-align: center;
 height: 850px;
 }
 
-.intro.container{
-  position:relative;
+.experiences{
+  background-color:#181e29;
+  padding-bottom:10px;
+  margin: 0 auto;
+}
+
+.experiences p{
+  color:white;
+}
+
+.experiences h3{
+  color:white;
 }
 
 .intro p{
@@ -36,15 +67,11 @@ height: 850px;
 }
 
 h2{
-  border-top: 1px solid #1E22FA;
-  border-bottom: 1px solid #1E22FA;
-  text-align: center;
-  margin-bottom: 20px;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  margin-top: 10px;
-  max-width: 1200px;
-
+  font-size: 50px;
+  text-align:center;
+  margin:0;
+  padding-top: 20px;
+  color:white;
 }
 
 a{
@@ -69,7 +96,7 @@ a:hover{
   height: 500px;
   grid-template-columns: 300px 300px 300px;
   margin: 0 auto;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
   margin-top: 50px;
   max-width: 1200px;
   text-align:center;
@@ -117,7 +144,7 @@ a:hover{
 
 .button{
   display: inline-block;
-  background-color:#008CBA;
+  background-color:#000;
   border:none;
   color:#FFFFFF;
   border-radius: 4px;
@@ -126,11 +153,11 @@ a:hover{
   padding: 20px;
   text-align: center;
   font-size: 30px;
-  margin-left:120px;
+  margin-left:200px;
   margin-right:100px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-bottom:100px;
+  margin-bottom:50px;
   margin-top:20px;
 }
 
@@ -157,4 +184,8 @@ a:hover{
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.contacts{
+  background-color: #4887fa
 }
