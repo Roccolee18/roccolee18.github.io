@@ -42,7 +42,7 @@ label.logo{
 }
 
 a:active, a:hover{
-  background: #1b9bff;
+  background: #000000;
   transition: 0.5s;
 }
 
