@@ -3,6 +3,103 @@ html, body{
   padding: 0 auto;
 }
 
+ul{
+  text-decoration:none;
+  list-style:none;
+}
+
+nav{
+  background: #4887fa;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  box-sizing: border-box;
+}
+
+nav ul{
+  float:right;
+  margin-right:30px;
+}
+
+nav ul li{
+  display:inline-block;
+  line-height:30px;
+  margin: 0 5px;
+}
+
+nav ul li a{
+  border-radius:3px;
+  padding:7px 13px;
+}
+
+label.logo{
+  color:white;
+  font-size: 35px;
+  line-height:55px;
+  padding: 0 100px;
+  font-weight:bold;
+}
+
+a:active, a:hover{
+  background: #1b9bff;
+  transition: 0.5s;
+}
+
+.checkbtn{
+  float:right;
+  color:white;
+  font-size:35px;
+  line-height:55px;
+  margin-right:40px;
+  cursor:pointer;
+  margin-right:40px;
+  display:none;
+}
+
+#check{
+  display:none;
+}
+
+@media (max-width: 952px){
+  label.logo{
+    font-size:30px;
+    padding-left:50px;
+  }
+  nav ul li a{
+    font-size:16px;
+  }
+}
+
+@media (max-width:858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    left: -100%;
+    text-align:center;
+    transition: all 0.5s;
+  }
+  nav ul li{
+    display:block;
+    margin: 50px 0;
+
+  }
+  a:hover, a:active{
+    background: #0082e6;
+  }
+
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
+
 body{
   font-family: 'Ubuntu', Arial;
   font-weight: 100;
@@ -19,6 +116,7 @@ body{
   display:flex;
   width: 100%;
   margin: 0;
+  padding-top: 25px;
 }
 
 .about .content{
@@ -47,6 +145,7 @@ height: 850px;
   background-color:#181e29;
   padding-bottom:10px;
   margin: 0 auto;
+  padding-top: 40px;
 }
 
 .experiences p{
@@ -76,6 +175,7 @@ h2{
 
 a{
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 a:link{
@@ -84,10 +184,6 @@ a:link{
 
 a:visited{
   color:white;
-}
-
-a:hover{
-  color: white;
 }
 
 .grid{
@@ -159,6 +255,7 @@ a:hover{
   cursor: pointer;
   margin-bottom:50px;
   margin-top:20px;
+  text-decoration: none;
 }
 
 .button span {
