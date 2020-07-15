@@ -41,8 +41,8 @@ label.logo{
   font-weight:bold;
 }
 
-a:active, a:hover{
-  background: #000000;
+nav a:active, nav a:hover{
+  background: #1b9bff;
   transition: 0.5s;
 }
 
