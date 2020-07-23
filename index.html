@@ -1,78 +1,102 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <title>Rocco Lee</title>
-    <link href="style.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="UTF-8">
-  </head>
+<head>
+  <title>Rocco Lee</title>
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+</head>
 
-  <body>
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">Rocco Lee</label>
-      <ul>
-        <li><a class="active" href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#experiences">Experiences</a></li>
-        <li><a href="#contacts">Contacts</a></li>
-      </ul>
-    </nav>
-    <div class="intro">
-      <div class="wrapper">
-      <h2>Rocco Lee</h2>
-    </div>
+<body>
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+    <label class="logo">Rocco Lee</label>
+    <ul>
+      <li><a class="active" href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experiences">Experiences</a></li>
+      <li><a href="#contacts">Contacts</a></li>
+    </ul>
+  </nav>
+  <div class="intro">
+    <svg id="firstname" width="433" height="102" viewBox="0 0 433 102" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path
+        d="M45.2344 88.6016L32.0156 85.5781V56.6797H44.25L55.4297 76.6484C58.8047 82.6953 62.5078 87.4297 66.5391 90.8516C70.6172 94.2266 75.2578 95.9141 80.4609 95.9141C83.4141 95.9141 86.2266 95.4453 88.8984 94.5078L89.9531 89.7266L87.6328 89.0234C84.8203 88.1797 82.4062 87.0312 80.3906 85.5781C78.375 84.0781 76.4766 82.25 74.6953 80.0938C72.9141 77.9375 70.3594 74.5391 67.0312 69.8984L54.375 52.3906V52.3203C58.6406 50.8203 62.2734 48.7578 65.2734 46.1328C68.3203 43.5078 70.6172 40.625 72.1641 37.4844C73.7578 34.3438 74.5547 31.2266 74.5547 28.1328C74.5547 20.3516 71.4609 14.7734 65.2734 11.3984C59.1328 8.02344 50.4609 6.33594 39.2578 6.33594C34.5703 6.33594 29.6719 6.61719 24.5625 7.17969C19.4531 7.74219 13.6641 8.53906 7.19531 9.57031L6.49219 14.9844L18.5156 17.0938V85.9297L6.77344 89.2344L6 94.4375H44.5312L45.2344 88.6016ZM32.0156 12.5938C32.4375 12.5469 33.4219 12.4766 34.9688 12.3828C36.5625 12.2891 38.3906 12.2422 40.4531 12.2422C44.5312 12.2422 48.0234 13.0859 50.9297 14.7734C53.8828 16.4609 56.1328 18.8047 57.6797 21.8047C59.2266 24.8047 60 28.2266 60 32.0703C60 36.7109 58.6406 40.5781 55.9219 43.6719C53.2031 46.7656 49.875 48.9688 45.9375 50.2812H32.0156V12.5938Z"
+        stroke="white" stroke-width="3" mask="url(#path-1-outside-1)" />
+      <path
+        d="M132.562 96.3359C141.938 96.3359 150.07 94.2734 156.961 90.1484C163.852 86.0234 169.102 80.5156 172.711 73.625C176.32 66.6875 178.125 59.1172 178.125 50.9141C178.125 42.6172 176.484 34.9766 173.203 27.9922C169.922 20.9609 165.188 15.3828 159 11.2578C152.859 7.08594 145.688 5 137.484 5C128.297 5 120.281 6.94531 113.438 10.8359C106.594 14.6797 101.32 20.0703 97.6172 27.0078C93.9609 33.9453 92.1328 41.9141 92.1328 50.9141C92.1328 59.3516 93.8203 67.0391 97.1953 73.9766C100.57 80.8672 105.328 86.3281 111.469 90.3594C117.609 94.3438 124.641 96.3359 132.562 96.3359ZM134.109 11.75C140.484 11.75 145.805 13.8125 150.07 17.9375C154.336 22.0625 157.477 27.3594 159.492 33.8281C161.508 40.2969 162.516 47.0703 162.516 54.1484C162.516 64.2266 160.547 72.5469 156.609 79.1094C152.672 85.625 145.828 88.8828 136.078 88.8828C129.656 88.8828 124.312 86.9141 120.047 82.9766C115.828 78.9922 112.711 73.8125 110.695 67.4375C108.727 61.0625 107.742 54.2188 107.742 46.9062C107.742 23.4688 116.531 11.75 134.109 11.75Z"
+        stroke="white" stroke-width="3" mask="url(#path-1-outside-1)" />
+      <path
+        d="M226.57 96.125C231.164 96.125 235.57 95.3984 239.789 93.9453C244.055 92.4922 247.828 90.6641 251.109 88.4609C254.391 86.2109 257.039 83.8672 259.055 81.4297L256.594 76.0859C253.266 79.1328 249.422 81.6641 245.062 83.6797C240.75 85.6484 236.391 86.6328 231.984 86.6328C226.266 86.6328 220.992 85.1562 216.164 82.2031C211.336 79.2031 207.445 74.8203 204.492 69.0547C201.586 63.2422 200.133 56.2812 200.133 48.1719C200.133 40.8125 201.281 34.3906 203.578 28.9062C205.875 23.4219 208.992 19.2266 212.93 16.3203C216.914 13.3672 221.367 11.8906 226.289 11.8906C230.602 11.8906 234.258 12.5469 237.258 13.8594C240.305 15.1719 242.695 16.9531 244.43 19.2031L247.383 34.6719L253.57 35.5859L255.75 12.2422C252.562 9.80469 248.766 8.02344 244.359 6.89844C239.953 5.77344 235.266 5.21094 230.297 5.21094C220.219 5.21094 211.781 7.64844 204.984 12.5234C198.188 17.3516 193.172 23.4453 189.938 30.8047C186.703 38.1172 185.086 45.5234 185.086 53.0234C185.086 62.0234 186.984 69.7812 190.781 76.2969C194.625 82.8125 199.711 87.7578 206.039 91.1328C212.367 94.4609 219.211 96.125 226.57 96.125Z"
+        stroke="white" stroke-width="3" mask="url(#path-1-outside-1)" />
+      <path
+        d="M304.758 96.125C309.352 96.125 313.758 95.3984 317.977 93.9453C322.242 92.4922 326.016 90.6641 329.297 88.4609C332.578 86.2109 335.227 83.8672 337.242 81.4297L334.781 76.0859C331.453 79.1328 327.609 81.6641 323.25 83.6797C318.938 85.6484 314.578 86.6328 310.172 86.6328C304.453 86.6328 299.18 85.1562 294.352 82.2031C289.523 79.2031 285.633 74.8203 282.68 69.0547C279.773 63.2422 278.32 56.2812 278.32 48.1719C278.32 40.8125 279.469 34.3906 281.766 28.9062C284.062 23.4219 287.18 19.2266 291.117 16.3203C295.102 13.3672 299.555 11.8906 304.477 11.8906C308.789 11.8906 312.445 12.5469 315.445 13.8594C318.492 15.1719 320.883 16.9531 322.617 19.2031L325.57 34.6719L331.758 35.5859L333.938 12.2422C330.75 9.80469 326.953 8.02344 322.547 6.89844C318.141 5.77344 313.453 5.21094 308.484 5.21094C298.406 5.21094 289.969 7.64844 283.172 12.5234C276.375 17.3516 271.359 23.4453 268.125 30.8047C264.891 38.1172 263.273 45.5234 263.273 53.0234C263.273 62.0234 265.172 69.7812 268.969 76.2969C272.812 82.8125 277.898 87.7578 284.227 91.1328C290.555 94.4609 297.398 96.125 304.758 96.125Z"
+        stroke="white" stroke-width="3" mask="url(#path-1-outside-1)" />
+      <path
+        d="M381.891 96.3359C391.266 96.3359 399.398 94.2734 406.289 90.1484C413.18 86.0234 418.43 80.5156 422.039 73.625C425.648 66.6875 427.453 59.1172 427.453 50.9141C427.453 42.6172 425.812 34.9766 422.531 27.9922C419.25 20.9609 414.516 15.3828 408.328 11.2578C402.188 7.08594 395.016 5 386.812 5C377.625 5 369.609 6.94531 362.766 10.8359C355.922 14.6797 350.648 20.0703 346.945 27.0078C343.289 33.9453 341.461 41.9141 341.461 50.9141C341.461 59.3516 343.148 67.0391 346.523 73.9766C349.898 80.8672 354.656 86.3281 360.797 90.3594C366.938 94.3438 373.969 96.3359 381.891 96.3359ZM383.438 11.75C389.812 11.75 395.133 13.8125 399.398 17.9375C403.664 22.0625 406.805 27.3594 408.82 33.8281C410.836 40.2969 411.844 47.0703 411.844 54.1484C411.844 64.2266 409.875 72.5469 405.938 79.1094C402 85.625 395.156 88.8828 385.406 88.8828C378.984 88.8828 373.641 86.9141 369.375 82.9766C365.156 78.9922 362.039 73.8125 360.023 67.4375C358.055 61.0625 357.07 54.2188 357.07 46.9062C357.07 23.4688 365.859 11.75 383.438 11.75Z"
+        stroke="white" stroke-width="3" mask="url(#path-1-outside-1)" />
+    </svg>
+
+    <svg id="lastname" width="226" height="88" viewBox="0 0 226 88" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M70.6875 88L73.2891 64.7266L67.3125 63.8125L58.1016 81.25H27.0234V9.17969L39.0469 5.875L39.75 0.53125H1.07812L0.164062 5.875L13.3828 9.46094V79.4922L1.71094 82.7969L1.07812 88H70.6875Z" stroke="white" stroke-width="3" />
+      <path
+        d="M88.2656 8.82812V79.4922L76.5234 82.7969L75.9609 88H147.328L149.438 65.9922L143.602 65.0781L136.711 81.25H101.906V47.0078H121.172L123.562 59.3125L129.539 58.3984L131.93 31.0469L125.25 32.0312L122.297 40.4688H101.906V7H135.023L137.906 22.1172L144.023 23.0312L146.203 0.53125H76.2422L75.4688 5.875L88.2656 8.82812Z"
+        stroke="white" stroke-width="3" />
+      <path
+        d="M163.922 8.82812V79.4922L152.18 82.7969L151.617 88H222.984L225.094 65.9922L219.258 65.0781L212.367 81.25H177.562V47.0078H196.828L199.219 59.3125L205.195 58.3984L207.586 31.0469L200.906 32.0312L197.953 40.4688H177.562V7H210.68L213.562 22.1172L219.68 23.0312L221.859 0.53125H151.898L151.125 5.875L163.922 8.82812Z"
+        stroke="white" stroke-width="3" />
+    </svg>
+
     <div class="slider-wrapper">
-        <p>Who I am: </p>
-        <div>
-          <ul class="flip4">
-            <li>Learner</li>
-            <li>Innovator</li>
-            <li>Leader</li>
-            <li>Engineer</li>
-          </ul>
-        </div>
+      <div class="list">
+        <ul class="flip4">
+          <li>Learner</li>
+          <li>Innovator</li>
+          <li>Leader</li>
+          <li>Engineer</li>
+        </ul>
       </div>
     </div>
+  </div>
   <section class="about" id="about">
     <div class="content">
       <h2>A Little bit about myself</h2>
       <h3>Passionate Learner</h3>
       <p>Whether its soft skills like time management, or practical skills such as learning a new coding language,
-      I am always looking for ways to expand my skillset so that I can both pick up new skills that may be useful to me in the future.</p>
+        I am always looking for ways to expand my skillset so that I can both pick up new skills that may be useful to me in the future.</p>
 
       <h3>Active Community Member</h3>
       <p>When I first moved to Canada in 2017, I made a promise to myself that I would try my best to get involved with the new community that I will be living in.
-      Now, 3 years after the move, I believe that I have accomplished my goal through joining extra-curricular acacdmic activities and volunteering.</p>
+        Now, 3 years after the move, I believe that I have accomplished my goal through joining extra-curricular acacdmic activities and volunteering.</p>
 
       <h3>Tech Enthusiast</h3>
       <p>I am fascinated by the advancements constantly being made within the tech industry! I believe that, by keeping up with the latest technology,
-      not only will I gain knowledge of upcoming advancements, I will also know what technologies are soon to be avaliable so that I may see how my workflow can be optimized with the newest technologies.</p>
+        not only will I gain knowledge of upcoming advancements, I will also know what technologies are soon to be avaliable so that I may see how my workflow can be optimized with the newest technologies.</p>
     </div>
     <div class="selfie"></div>
   </section>
 
-    <div class="experiences" id="experiences">
-        <h2>Experiences</h2>
-      <div class="grid">
-        <div class="box">
-          <div class="cont">
-              <img src="https://s3-media0.fl.yelpcdn.com/ephoto/F8c24vQ82lLqBUQPjhMg1g/300s.jpg">
-            <div class="overlay">
-              <div class="text">
-                <a href="https://www.nightitup.com">Learn More</a>
-              </div>
+  <div class="experiences" id="experiences">
+    <h2>Experiences</h2>
+    <div class="grid">
+      <div class="box">
+        <div class="cont">
+          <img src="https://s3-media0.fl.yelpcdn.com/ephoto/F8c24vQ82lLqBUQPjhMg1g/300s.jpg">
+          <div class="overlay">
+            <div class="text">
+              <a href="https://www.nightitup.com">Learn More</a>
             </div>
           </div>
+        </div>
         <h3>Logistics Team member - Power Unit Youth Organization</h3>
-          <p>As a member of the Logistics Team, I am responsible for effectively communicating between multiple departments about the operations and logistics of the current event.
-            I am also responsible for reaching out to sponsors and vendors prior to event days to coordinate equipment pick-up and drof-off times.</p>
+        <p>As a member of the Logistics Team, I am responsible for effectively communicating between multiple departments about the operations and logistics of the current event.
+          I am also responsible for reaching out to sponsors and vendors prior to event days to coordinate equipment pick-up and drof-off times.</p>
       </div>
       <div class="box">
         <div class="cont">
@@ -84,38 +108,39 @@
           </div>
         </div>
         <h3>Program Leader - Markham Public Libraries</h3>
-          <p>Volunteering at Markham Public Libraries has given me many opportunities to develop my leadership skills while also getting to know the community that I live in.
-            My main responsibilities include designing programs for young (elementary scholars) members of the community to strengthen their social, motor skills and culutural awareness.</p>
+        <p>Volunteering at Markham Public Libraries has given me many opportunities to develop my leadership skills while also getting to know the community that I live in.
+          My main responsibilities include designing programs for young (elementary scholars) members of the community to strengthen their social, motor skills and culutural awareness.</p>
       </div>
       <div class="box">
         <div class="cont">
           <img src="https://pbs.twimg.com/profile_images/1117564868113174528/wX4kPJOJ_400x400.png">
           <div class="overlay">
             <div class="text">
-            <a href="https://btechassociation.com/">Learn More</a>
+              <a href="https://btechassociation.com/">Learn More</a>
             </div>
           </div>
         </div>
         <h3>Automation Stream Representitave - B.Tech Association</h3>
-          <p>The main purpose of this role is to represent my stream of study at open-house events and voice the opinions of my fellow colleagues.
-            To do this, I attend bi-weekly meetings where new event ideas are brought up with other stream representitaves.</p>
+        <p>The main purpose of this role is to represent my stream of study at open-house events and voice the opinions of my fellow colleagues.
+          To do this, I attend bi-weekly meetings where new event ideas are brought up with other stream representitaves.</p>
       </div>
-      </div>
-      </div>
-      <div class="contacts" id="contacts">
-        <h2>Contact Info</h2>
-          <button class="button" style="vertical-align:middle"><span>
-            <a href="https://www.linkedin.com/in/rocco-lee-b06144195/" target="_blank">Linkedin  </a>
-            </span>
-          </button>
-          <button class="button" style="vertical-align:middle"><span>
-            <a href="https://github.com/Roccolee18" target="_blank">Github </a>
-            </span>
-          </button>
-          <button class="button" style="vertical-align:middle"><span>
-            <a href="mailto: roccolee18@gmail.com">Email  </a>
-            </span>
-          </button>
-      </div>
-  </body>
+    </div>
+  </div>
+  <div class="contacts" id="contacts">
+    <h2>Contact Info</h2>
+    <button class="button" style="vertical-align:middle"><span>
+        <a href="https://www.linkedin.com/in/rocco-lee-b06144195/" target="_blank">Linkedin </a>
+      </span>
+    </button>
+    <button class="button" style="vertical-align:middle"><span>
+        <a href="https://github.com/Roccolee18" target="_blank">Github </a>
+      </span>
+    </button>
+    <button class="button" style="vertical-align:middle"><span>
+        <a href="mailto: roccolee18@gmail.com">Email </a>
+      </span>
+    </button>
+  </div>
+</body>
+
 </html>
