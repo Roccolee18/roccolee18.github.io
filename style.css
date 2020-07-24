@@ -18,17 +18,17 @@ nav {
   box-sizing: border-box;
 }
 
-nav ul {
+nav .navlist {
   float: right;
 }
 
-nav ul li {
+nav .navlist li {
   display: inline-block;
   line-height: 30px;
   margin: 0 5px;
 }
 
-nav ul li a {
+nav .navlist li a {
   border-radius: 3px;
   padding: 7px 13px;
 }
@@ -53,7 +53,6 @@ nav a:active, nav a:hover {
   line-height: 55px;
   margin-right: 40px;
   cursor: pointer;
-  margin-right: 40px;
   display: none;
 }
 
@@ -67,7 +66,7 @@ nav a:active, nav a:hover {
     padding-left: 50px;
   }
 
-  nav ul li a {
+  nav .navlist li a {
     font-size: 16px;
   }
 }
@@ -77,7 +76,7 @@ nav a:active, nav a:hover {
     display: block;
   }
 
-  ul {
+  .navlist {
     margin: 0;
     padding: 0;
     position: fixed;
@@ -89,7 +88,7 @@ nav a:active, nav a:hover {
     transition: all 0.5s;
   }
 
-  nav ul li {
+  nav .navlist li {
     display: block;
     margin: 50px 0;
   }
@@ -98,7 +97,7 @@ nav a:active, nav a:hover {
     background: #0082e6;
   }
 
-  #check:checked~ul {
+  #check:checked~.navlist {
     right: 0;
   }
 }
@@ -118,8 +117,32 @@ h2 {
 }
 
 .intro {
-  height: 110vh;
+  height: 100vh;
   background: #000e26;
+}
+
+.intro .div-one {
+  background: url('http://farm1.staticflickr.com//447//19585243302_fae38fd86f_o.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.intro .div-two {
+  -webkit-clip-path: polygon(100vw 0, 0% 100%, 100vw 100vh);
+  clip-path: polygon(100vw 0, 0% 100vh, 100vw 100vh);
+  background: url('https://farm9.staticflickr.com/8644/15964625458_d5c6d431ac_k.jpg');
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.intro span {
+  position: absolute;
 }
 
 #firstname {
@@ -176,7 +199,7 @@ h2 {
   }
 }
 
-#lastname{
+#lastname {
   position: absolute;
   top: 50%;
   left: 62%;
@@ -184,19 +207,19 @@ h2 {
   animation: fill 0.5s ease forwards 4.5s;
 }
 
-#lastname path:nth-child(1){
+#lastname path:nth-child(1) {
   stroke-dasharray: 387px;
   stroke-dashoffset: -387px;
   animation: line-anim 2s ease forwards 1.5s;
 }
 
-#lastname path:nth-child(2){
+#lastname path:nth-child(2) {
   stroke-dasharray: 576px;
   stroke-dashoffset: -576px;
   animation: line-anim 2s ease forwards 1.8s;
 }
 
-#lastname path:nth-child(3){
+#lastname path:nth-child(3) {
   stroke-dasharray: 576px;
   stroke-dashoffset: -576px;
   animation: line-anim 2s ease forwards 2.1s;
@@ -208,7 +231,7 @@ h2 {
   position: relative;
   font-weight: bold;
   font-family: serif;
-  top: 60%;
+  top: 66%;
   left: 50%;
   height: 15vh;
   width: 40%;
@@ -291,7 +314,7 @@ h2 {
 }
 
 .about .content {
-  background-color: #4887fa;
+  background-color: #0b0b3d;
   width: 50%;
   color: white;
   padding: 20px;
@@ -337,9 +360,6 @@ a:visited {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
-  margin-top: 50px;
-  margin-left: 20px;
-  margin-right: 100px;
   text-align: center;
   justify-content: space-around;
   grid-column-gap: 10vw;
