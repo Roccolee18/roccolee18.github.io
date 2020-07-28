@@ -476,8 +476,8 @@ a:visited {
 
   .slider-wrapper .list {
     top: 12vh;
-    width: 90vw;
+    width: 60vw;
     position: absolute;
-    left: -7%;
+    left: -15%;
   }
 }
