@@ -476,7 +476,7 @@ a:visited {
 
   .slider-wrapper .list {
     top: 12vh;
-    width: 65vw;
+    width: 350px;
     position: absolute;
     left: -15%;
   }
