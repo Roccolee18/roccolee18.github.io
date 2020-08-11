@@ -37,7 +37,7 @@ label.logo {
   color: white;
   font-size: 35px;
   line-height: 55px;
-  padding: 0 100px;
+  padding: 0 30px;
   font-weight: bold;
 }
 
@@ -123,7 +123,7 @@ h2 {
 
 .intro .div-one {
   background: url('http://farm1.staticflickr.com//447//19585243302_fae38fd86f_o.jpg');
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -134,7 +134,7 @@ h2 {
   -webkit-clip-path: polygon(100vw 0, 0% 100%, 100vw 100vh);
   clip-path: polygon(100vw 0, 0% 100vh, 100vw 100vh);
   background: url('https://farm9.staticflickr.com/8644/15964625458_d5c6d431ac_k.jpg');
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -148,7 +148,7 @@ h2 {
 #firstname {
   position: absolute;
   top: 50%;
-  left: 38%;
+  left: 42%;
   transform: translate(-50%, -50%);
   animation: fill 0.5s ease forwards 4.5s;
 }
@@ -202,7 +202,7 @@ h2 {
 #lastname {
   position: absolute;
   top: 50%;
-  left: 62%;
+  left: 66%;
   transform: translate(-50%, -50%);
   animation: fill 0.5s ease forwards 4.5s;
 }
@@ -231,8 +231,8 @@ h2 {
   position: relative;
   font-weight: bold;
   font-family: serif;
-  top: 66%;
-  left: 50%;
+  top: 68%;
+  left: 52%;
   height: 15vh;
   width: 40%;
   transform: translate(-50%, -50%);
@@ -360,6 +360,7 @@ a:visited {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 auto;
+  margin-top: 30px;
   text-align: center;
   justify-content: space-around;
   grid-column-gap: 10vw;
@@ -379,7 +380,7 @@ a:visited {
 .overlay {
   position: absolute;
   bottom: 100%;
-  left: 0;
+  left: 25px;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
@@ -476,7 +477,7 @@ a:visited {
 
   .slider-wrapper .list {
     top: 12vh;
-    width: 350px;
+    width: 70vw;
     position: absolute;
     left: -15%;
   }
