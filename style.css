@@ -80,7 +80,7 @@ nav a:active, nav a:hover {
     margin: 0;
     padding: 0;
     position: fixed;
-    width: 100%;
+    width: 100vw  ;
     height: 100vh;
     background: #2c3e50;
     right: -100%;
@@ -314,7 +314,7 @@ h2 {
 }
 
 .about .content {
-  background-color: #0b0b3d;
+  background-color: #001702;
   width: 50%;
   color: white;
   padding: 20px;
@@ -322,10 +322,16 @@ h2 {
 
 .about .selfie {
   width: 50%;
-  background: url("selfie.jpg");
-  background-color: #55AD7A;
+  background-color: #004204;
   background-position: center;
   background-size: cover;
+}
+
+.about .selfie img{
+  width: 45%;
+  position: relative;
+  left: 28%;
+  top: 11%;
 }
 
 .experiences {
@@ -363,7 +369,8 @@ a:visited {
   margin-top: 30px;
   text-align: center;
   justify-content: space-around;
-  grid-column-gap: 10vw;
+  grid-column-gap: 5vw;
+  width: 100%;
 }
 
 .box {
@@ -380,7 +387,7 @@ a:visited {
 .overlay {
   position: absolute;
   bottom: 100%;
-  left: 25px;
+  left: 50px;
   right: 0;
   background-color: #008CBA;
   overflow: hidden;
@@ -400,7 +407,7 @@ a:visited {
 }
 
 .contacts {
-  background-color: #4887fa;
+  background-color: #53bccf;
 }
 
 .text {
@@ -427,7 +434,7 @@ a:visited {
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 30px 9.5vw;
+  margin: 30px 88px;
 }
 
 .button span {
@@ -480,5 +487,13 @@ a:visited {
     width: 70vw;
     position: absolute;
     left: -15%;
+  }
+
+  .grid{
+    display: block;
+  }
+
+  .overlay{
+    left: 30px;
   }
 }
