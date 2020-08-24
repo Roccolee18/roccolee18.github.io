@@ -8,6 +8,7 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -67,26 +68,23 @@
     </div>
   </div>
   <section class="about" id="about">
-    <div class="content">
+    <div class="content" data-aos="fade-right">
       <h2>A Little bit about myself</h2>
       <h3>Passionate Learner</h3>
-      <p>Whether its soft skills like time management, or practical skills such as learning a new coding language,
-        I am always looking for ways to expand my skillset so that I can both pick up new skills that may be useful to me in the future.</p>
+      <p>I am always looking for ways to expand my skillset so that I can both pick up new skills that may be useful to me in the future.</p>
 
       <h3>Active Community Member</h3>
-      <p>When I first moved to Canada in 2017, I made a promise to myself that I would try my best to get involved with the new community that I will be living in.
-        Now, 3 years after the move, I believe that I have accomplished my goal through joining extra-curricular acacdmic activities and volunteering.</p>
+      <p>I am always looking for ways to give back to the communities that I am part of. Whether by volunteering or taking on a leadership role, I try to involve myself with my community as much as possible.</p>
 
       <h3>Tech Enthusiast</h3>
-      <p>I am fascinated by the advancements constantly being made within the tech industry! I believe that, by keeping up with the latest technology,
-        not only will I gain knowledge of upcoming advancements, I will also know what technologies are soon to be avaliable so that I may see how my workflow can be optimized with the newest technologies.</p>
+      <p>I am fascinated by the advancements constantly being made within the tech industry! I hope that one day I will be a part of a team developing the technologies of the future.</p>
     </div>
-    <div class="selfie">
+    <div class="selfie" data-aos="fade-left">
       <img src="IMG_0943.JPEG" alt="A selfie of me">
     </div>
   </section>
 
-  <div class="experiences" id="experiences">
+  <div class="experiences" id="experiences" data-aos="fade-up">
     <h2>Experiences</h2>
     <div class="grid">
       <div class="box">
@@ -102,6 +100,7 @@
         <p>As a member of the Logistics Team, I am responsible for effectively communicating between multiple departments about the operations and logistics of the current event.
           I am also responsible for reaching out to sponsors and vendors prior to event days to coordinate equipment pick-up and drof-off times.</p>
       </div>
+
       <div class="box">
         <div class="cont">
           <img src="https://pbs.twimg.com/profile_images/885578095557697537/njDEoYSr_400x400.jpg">
@@ -149,6 +148,13 @@
       </span>
     </button>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+   AOS.init({
+     offset: 150,
+     duration: 1000
+   });
+ </script>
 </body>
 
 </html>

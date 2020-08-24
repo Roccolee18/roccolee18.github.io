@@ -323,15 +323,13 @@ h2 {
 .about .selfie {
   width: 50%;
   background-color: #004204;
-  background-position: center;
-  background-size: cover;
 }
 
 .about .selfie img {
   width: 45%;
   position: relative;
   left: 28%;
-  top: 11%;
+  top: 5%;
 }
 
 .experiences {
@@ -495,5 +493,25 @@ a:visited {
 
   .overlay {
     left: 30px;
+  }
+
+  .about{
+    display: inline-block;
+    width: 100%;
+  }
+
+  .about .content{
+    width: auto;
+  }
+
+  .about .selfie{
+    width: auto;
+  }
+
+  .about .selfie img{
+    width: 50%;
+    position: relative;
+    padding: 500;
+    left: 25%;
   }
 }
