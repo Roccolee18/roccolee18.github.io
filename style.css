@@ -464,8 +464,8 @@ a:visited {
   right: 0;
 }
 
-@media (max-width: 1400px){
-  .button{
+@media (max-width: 1400px) {
+  .button {
     margin-right: 10px;
     margin-left: 100px;
   }
@@ -506,28 +506,28 @@ a:visited {
     left: 30px;
   }
 
-  .about{
+  .about {
     display: inline-block;
     width: 100%;
   }
 
-  .about .content{
+  .about .content {
     width: auto;
   }
 
-  .about .selfie{
+  .about .selfie {
     width: auto;
     padding: 30px;
     justify-content: center;
   }
 
-  .about .selfie img{
+  .about .selfie img {
     width: 70%;
     position: relative;
     left: 16%;
   }
 
-  .button{
+  .button {
     margin: 0;
     margin-right: 10px;
     margin-left: 40px;
