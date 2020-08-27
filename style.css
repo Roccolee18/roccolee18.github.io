@@ -395,7 +395,7 @@ a:visited {
   transition: .5s ease;
 }
 
-.greenoverlay{
+.greenoverlay {
   position: absolute;
   bottom: 100%;
   left: 50px;
@@ -413,6 +413,11 @@ a:visited {
 }
 
 .cont:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.cont:hover .greenoverlay {
   bottom: 0;
   height: 100%;
 }
