@@ -395,6 +395,19 @@ a:visited {
   transition: .5s ease;
 }
 
+.greenoverlay{
+  position: absolute;
+  bottom: 100%;
+  left: 50px;
+  right: 0;
+  background-color: #99c66b;
+  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
+  height: 0;
+  transition: .5s ease;
+}
+
 .cont {
   position: relative;
 }
