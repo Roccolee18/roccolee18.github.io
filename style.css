@@ -432,7 +432,11 @@ a:visited {
   width: 200px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 30px 88px;
+  margin: 0;
+  margin-right: 20px;
+  margin-left: 125px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .button span {
@@ -458,6 +462,13 @@ a:visited {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+@media (max-width: 1400px){
+  .button{
+    margin-right: 10px;
+    margin-left: 100px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -506,12 +517,23 @@ a:visited {
 
   .about .selfie{
     width: auto;
+    padding: 30px;
+    justify-content: center;
   }
 
   .about .selfie img{
-    width: 50%;
+    width: 70%;
     position: relative;
-    padding: 500;
-    left: 25%;
+    left: 16%;
+  }
+
+  .button{
+    margin: 0;
+    margin-right: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: 150px;
   }
 }
