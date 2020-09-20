@@ -133,7 +133,7 @@ h2 {
 .intro .div-two {
   -webkit-clip-path: polygon(100vw 0, 0% 100%, 100vw 100vh);
   clip-path: polygon(100vw 0, 0% 100vh, 100vw 100vh);
-  background: url('https://farm9.staticflickr.com/8644/15964625458_d5c6d431ac_k.jpg');
+  background: url('resources/forrest.jpg');
   width: 100%;
   height: 100vh;
   background-repeat: no-repeat;
@@ -412,12 +412,12 @@ a:visited {
   position: relative;
 }
 
-.cont:hover .overlay {
+.cont:hover .overlay{
   bottom: 0;
   height: 100%;
 }
 
-.cont:hover .greenoverlay {
+.cont:hover .greenoverlay{
   bottom: 0;
   height: 100%;
 }
@@ -482,8 +482,8 @@ a:visited {
   right: 0;
 }
 
-@media (max-width: 1400px) {
-  .button {
+@media (max-width: 1400px){
+  .button{
     margin-right: 10px;
     margin-left: 100px;
   }
@@ -524,28 +524,28 @@ a:visited {
     left: 30px;
   }
 
-  .about {
+  .about{
     display: inline-block;
     width: 100%;
   }
 
-  .about .content {
+  .about .content{
     width: auto;
   }
 
-  .about .selfie {
+  .about .selfie{
     width: auto;
     padding: 30px;
     justify-content: center;
   }
 
-  .about .selfie img {
+  .about .selfie img{
     width: 70%;
     position: relative;
     left: 16%;
   }
 
-  .button {
+  .button{
     margin: 0;
     margin-right: 10px;
     margin-left: 40px;
