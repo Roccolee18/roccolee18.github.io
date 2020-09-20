@@ -148,7 +148,7 @@ h2 {
 #firstname {
   position: absolute;
   top: 50%;
-  left: 42%;
+  left: 39%;
   transform: translate(-50%, -50%);
   animation: fill 0.5s ease forwards 4.5s;
 }
@@ -202,7 +202,7 @@ h2 {
 #lastname {
   position: absolute;
   top: 50%;
-  left: 66%;
+  left: 68%;
   transform: translate(-50%, -50%);
   animation: fill 0.5s ease forwards 4.5s;
 }
@@ -452,7 +452,7 @@ a:visited {
   cursor: pointer;
   margin: 0;
   margin-right: 20px;
-  margin-left: 125px;
+  margin-left: 115px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -483,9 +483,30 @@ a:visited {
 }
 
 @media (max-width: 1400px){
+  .about .selfie img{
+    width: 55%;
+    top: 6%;
+    left: 24%;
+  }
+
+  .overlay{
+    left: 20px;
+  }
+
+  .greenoverlay{
+    left: 20px;
+  }
+
   .button{
     margin-right: 10px;
     margin-left: 100px;
+  }
+}
+
+@media (max-width: 1280px){
+  .button{
+    margin-left: 80px;
+    margin-right: 25px;
   }
 }
 
